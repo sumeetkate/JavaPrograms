@@ -16,15 +16,15 @@ public class Homophones {
 		
 		catch (Exception e) 
 		{
-			k=5;// By Default Program will display top 5 words
+			System.out.println ("No value of k entered");
 		}
 		
+		try
+		{
 		// Please add path of input file here
 		File file = new File(" ");
 		
 		final HashMap<String, KeyValue> hm = new HashMap<String, KeyValue>();
-		try
-		{
 			Scanner scanner = new Scanner(file);
 			while(scanner.hasNextLine())
 			{
