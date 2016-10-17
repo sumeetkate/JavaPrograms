@@ -20,7 +20,7 @@ public class Homophones {
 		}
 		
 		// Please add path of input file here
-		File file = new File("/afs/cad/courses/ccs/s16/cs/610/common/P1/cmudict.0.7a.txt");
+		File file = new File(" ");
 		
 		final HashMap<String, KeyValue> hm = new HashMap<String, KeyValue>();
 		try
